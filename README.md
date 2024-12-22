@@ -37,12 +37,17 @@
 <p align="right">(<a href="#readme-top">вернуться назад</a>)</p>
 
 Решение gowebcalc позволяет использовать надежный функционал вычисления арифметических выражений. Проект включает API с HTTP-эндпоинтом /api/v1/calculate, который позволяет отправлять запросы на вычисление выражений.
+Gowebcalc работает на стеке net-http, zap для логгирования и viper для оперирования переменными окружения.
+
+
 
 
 ### Стек
 
 * [![Go][Go]][Go-url]
 * [net-http](https://pkg.go.dev/net/http)
+* [uber zap](https://github.com/uber-go/zap)
+* [viper](https://github.com/spf13/viper)
 
 <p align="right">(<a href="#readme-top">вернуться назад</a>)</p>
 

@@ -74,7 +74,7 @@ func (a *Application) CalcHandler(w http.ResponseWriter, r *http.Request) {
 func (a *Application) RunServer() error {
 	a.log.Info("Starting server", zap.String("host", a.config.Host), zap.Int("port", a.config.Port))
 
-	http.HandleFunc("/", middleware.Logging(a.CalcHandler, a.log))
+	http.HandleFunc("/api/v1/calculate/", middleware.Logging(a.CalcHandler, a.log))
 	return http.ListenAndServe(a.config.Host+":"+strconv.Itoa(a.config.Port), nil)
 }
 
