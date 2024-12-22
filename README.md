@@ -2,11 +2,6 @@
 
 
 <br />
-<div align="center">
-  <a href="https://github.com/AtariOverlord09/gowebcalc/blob/main/logo.jpg">
-    <img src=https://github.com/AtariOverlord09/gowebcalc/blob/main/logo.jpg" alt="Logo" width="80" height="80">
-  </a>
-
 <h3 align="center">gowebcalc</h3>
 
   <p align="center">
