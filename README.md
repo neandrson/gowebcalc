@@ -34,7 +34,7 @@
 
 ## О проекте
 
-<p align="right">(<a href="https://t.me/Basquade">Связаться со мной</a>)</p>
+<p align="right">(<a href="https://t.me/Basquade">Связаться со мной [![Telegram][tg]][tg-url]</a>)</p>
 
 Решение gowebcalc позволяет использовать надежный функционал вычисления арифметических выражений. Проект включает API с HTTP-эндпоинтом /api/v1/calculate, который позволяет отправлять запросы на вычисление выражений.
 Gowebcalc работает на стеке net-http, zap для логгирования и viper для оперирования переменными окружения.
@@ -45,7 +45,7 @@ Gowebcalc работает на стеке net-http, zap для логгиров
 * Деление (/)
 * Круглые скобки для указания порядка
 
-
+При возникновении багов или прочих проблем, пожалуйста, свяжитесь со мной https://t.me/Basquade
 
 
 ### Стек
@@ -127,4 +127,5 @@ Response:
 [net-http-url]: https://pkg.go.dev/net/http
 [Go-url]: https://go.dev/
 [Go]: https://img.shields.io/badge/Go-00ADD8?logo=Go&logoColor=white&style=for-the-badge
-[tg]: https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white
+[tg-url]: https://t.me/Basquade 
+[tg]: https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white
